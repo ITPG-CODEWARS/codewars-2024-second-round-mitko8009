@@ -44,6 +44,7 @@ input[type="submit"] {
     font-weight: bold;
     padding: 8px 40px;
     font-size: 1.5rem;
+    transition-duration: 100ms;
 }
 
 form button {
@@ -55,4 +56,9 @@ form button {
     color: white;
     border-radius: 4px;
     font-size: 1em;
+    transition-duration: 100ms;
+}
+
+form button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
 }
